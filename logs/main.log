@@ -1,0 +1,20 @@
+Starting login test with username: standard_user
+Entered username and password
+Captured page title: Products
+Login successful for user: standard_user
+Starting login test with username: problem_user
+Entered username and password
+Captured page title: Products
+Login successful for user: problem_user
+Starting login test with username: fail_user
+Entered username and password
+Starting login test with username: standard_user
+Entered username and password
+Captured page title: Products
+Login successful for user: standard_user
+Starting login test with username: problem_user
+Entered username and password
+Captured page title: Products
+Login successful for user: problem_user
+Starting login test with username: fail_user
+Entered username and password

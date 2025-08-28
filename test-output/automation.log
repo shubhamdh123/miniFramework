@@ -1,0 +1,10 @@
+2025-08-25 17:50:00,387 [main] INFO utils.log - Starting login test with username: standard_user
+2025-08-25 17:50:00,971 [main] INFO utils.log - Entered username and password
+2025-08-25 17:50:01,096 [main] INFO utils.log - Captured page title: Products
+2025-08-25 17:50:01,135 [main] INFO utils.log - Login successful for user: standard_user
+2025-08-25 17:50:06,191 [main] INFO utils.log - Starting login test with username: problem_user
+2025-08-25 17:50:07,181 [main] INFO utils.log - Entered username and password
+2025-08-25 17:50:07,228 [main] INFO utils.log - Captured page title: Products
+2025-08-25 17:50:07,264 [main] INFO utils.log - Login successful for user: problem_user
+2025-08-25 17:50:11,177 [main] INFO utils.log - Starting login test with username: fail_user
+2025-08-25 17:50:11,694 [main] INFO utils.log - Entered username and password
