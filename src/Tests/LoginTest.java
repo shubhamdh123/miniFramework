@@ -21,13 +21,14 @@ public class LoginTest extends BaseTest {
 		return ExcelUtil.getTestData("src/resources/LoginData.xlsx", "Sheet1");
 	}
 	
-	@Test(dataProvider = "LoginData")
+	@Test(dataProvider = "LoginData" , groups={"login"})
 	public void validLoginTest(String username,String password) 
 	{
 		log.info("Starting login test with username: "+ username);
 		
 		LoginPage loginpage = new LoginPage(DriverFactory.getDriver());
 		loginpage.login(username,password);
+		loginpage.Clickbutn();
 		log.info("Entered username and password");
 		
 		HomePage homepage = new HomePage(DriverFactory.getDriver());

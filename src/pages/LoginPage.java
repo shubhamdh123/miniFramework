@@ -18,7 +18,12 @@ public class LoginPage {
 	{
 		driver.findElement(username).sendKeys(user);
 		driver.findElement(password).sendKeys(pass);
+		
+	}
+	public void Clickbutn() 
+	{
 		driver.findElement(loginBtn).click();
 	}
+		
+	}
 
-}
