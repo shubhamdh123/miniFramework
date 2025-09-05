@@ -15,7 +15,7 @@ import utils.ConfigReader;
 import utils.ExcelUtil;
 
 
-public class AddToCartTest extends BaseTest {
+public class AddtocartTest extends BaseTest {
 	
 	@Test
 	public void ValidateAddCart() {

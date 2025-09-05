@@ -12,7 +12,7 @@ import pages.Checkout;
 import pages.LoginPage;
 import utils.DriverFactory;
 
-public class checkOutTest extends BaseTest {
+public class CheckoutTest extends BaseTest {
 	
 	@Test
 	public void ValidateCheckOutTest() 
