@@ -70,7 +70,7 @@
 
   <build>
     <sourceDirectory>src</sourceDirectory>
-    <testSourceDirectory>src/Tests</testSourceDirectory>
+    <testSourceDirectory>src/test</testSourceDirectory>
 
     <plugins>
       <!-- Compiler Plugin -->
