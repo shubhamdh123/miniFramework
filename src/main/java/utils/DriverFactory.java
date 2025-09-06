@@ -20,7 +20,7 @@ public class DriverFactory {
 				driver = new ChromeDriver();
 			}
 			else if (browser.equalsIgnoreCase("edge")) {
-				WebDriverManager.EdgeDriver().setup();
+				WebDriverManager.edgedriver().setup();
 				driver = new EdgeDriver();
 			
 		}
