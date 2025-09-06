@@ -19,9 +19,9 @@ public class DriverFactory {
 				WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver();
 			}
-			else if (browser.equalsIgnoreCase("chrome")) {
-				WebDriverManager.firefoxdriver().setup();
-				driver = new FirefoxDriver();
+			else if (browser.equalsIgnoreCase("edge")) {
+				WebDriverManager.EdgeDriver().setup();
+				driver = new EdgeDriver();
 			
 		}
 			driver.manage().window().maximize();
