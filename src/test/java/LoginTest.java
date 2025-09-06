@@ -18,7 +18,7 @@ public class LoginTest extends BaseTest {
 	@DataProvider(name="LoginData")
 	public Object[][] getLoginData()
 	{
-		return ExcelUtil.getTestData("src/resources/LoginData.xlsx", "Sheet1");
+		return ExcelUtil.getTestData("src/test/resources/LoginData.xlsx", "Sheet1");
 	}
 	
 	@Test(dataProvider = "LoginData" , groups={"login"})
